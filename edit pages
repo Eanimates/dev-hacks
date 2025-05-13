@@ -1,0 +1,1 @@
+javascript:(function() {  let elements = document.querySelectorAll('*:not(script):not(style)');  for (let element of elements) {    element.setAttribute('contenteditable', true);  }})();
